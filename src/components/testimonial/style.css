@@ -1,0 +1,36 @@
+.review .slick-prev:before,
+.review .slick-next:before {
+  display: none !important;
+}
+.slick-current + .slick-slide .cardreview {
+  padding: 28px;
+  opacity: 1;
+  overflow: visible;
+}
+.slick-current + .slick-slide .cardreview p {
+  font-size: 16px !important;
+}
+.slick-current + .slick-slide .cardreview img {
+  width: 60px !important;
+  height: 60px !important;
+}
+.slick-current + .slick-slide .cardreview h4 {
+  font-size: 18px !important;
+}
+@media screen and (max-width: 990px) {
+  .slick-current .cardreview {
+    padding: 28px;
+    opacity: 1;
+    overflow: visible;
+  }
+  .slick-current .cardreview p {
+    font-size: 16px !important;
+  }
+  .slick-current .cardreview img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .slick-current .cardreview h4 {
+    font-size: 18px !important;
+  }
+}

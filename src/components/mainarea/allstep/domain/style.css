@@ -1,0 +1,19 @@
+.makeStyles-Root2-59 .MuiNativeSelect-select.MuiNativeSelect-select {
+  width: 38px !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 0 !important;
+}
+.MuiInput-underline:before {
+  border-bottom: 0 !important;
+}
+.MuiNativeSelect-select:focus {
+  background-color: #fff !important;
+  border: 0 !important;
+}
+.MuiInput-underline:after {
+  border-bottom: 0 !important;
+}
+.MuiCardHeader-content {
+  text-align: left !important;
+}

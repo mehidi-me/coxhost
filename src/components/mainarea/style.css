@@ -1,0 +1,47 @@
+.MuiStepLabel-label.MuiStepLabel-active {
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-shadow: -3px 3px 8px #000000;
+}
+.MuiStepLabel-label.MuiStepLabel-completed {
+  font-weight: 500 !important;
+}
+.MuiStepLabel-label.MuiStepLabel-active .step,
+.MuiStepLabel-label.MuiStepLabel-completed .step {
+  background: #2866d7;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.MuiStepLabel-labelContainer {
+  width: auto !important;
+}
+
+.MuiStepLabel-root {
+  justify-content: center;
+  padding: 10px 0;
+}
+.MuiStepLabel-label {
+  font-size: 22px !important;
+  padding: 5px !important;
+}
+.MuiStepper-horizontal {
+  background: transparent !important;
+}
+.makeStyles-card-17 .slick-slider .slick-prev:before,
+.makeStyles-card-17 .slick-slider .slick-next:before {
+  font-size: 38px !important;
+  color: #2866d7 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .MuiStepLabel-root {
+    flex-direction: column;
+  }
+  .MuiStepLabel-label {
+    font-size: 18px !important;
+    text-align: center;
+    margin: 5px 0 !important;
+  }
+}
